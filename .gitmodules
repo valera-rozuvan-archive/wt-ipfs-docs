@@ -1,0 +1,3 @@
+[submodule "org.id-sdk"]
+	path = org.id-sdk
+	url = https://github.com/windingtree/org.id-sdk.git
