@@ -63,7 +63,7 @@ cd ~/
 ipfs add -r ./build > ./output_ipfs.log 2>&1
 
 echo "Getting new IPFS hash..."
-NEW_IPFS_HASH="$(grep --line-buffered -i 'added [a-z0-9]* build$' output_ipfs.log | awk '{print $9}')"
+NEW_IPFS_HASH="$(grep --line-buffered -i 'added [a-z0-9]* build$' output_ipfs.log | awk '{print $(NF-1)}')"
 echo "New IPFS hash is ${NEW_IPFS_HASH} - please update DNS!"
 
 echo "Updating IPNS..."
