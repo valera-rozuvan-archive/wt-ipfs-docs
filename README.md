@@ -14,7 +14,7 @@ This GitHub repo deploys the static site to a self-hosted IPFS node and a self-h
 - my gateway - [https://orgid-docs.rozuvan.net/](https://orgid-docs.rozuvan.net/)
 - Cloudflare gateway - [https://cloudflare-ipfs.com/ipfs/QmYXT9SjaY7qVzz1cpk97rCN2mMecnM8172ociQRoTdwSV/](https://cloudflare-ipfs.com/ipfs/QmYXT9SjaY7qVzz1cpk97rCN2mMecnM8172ociQRoTdwSV/)
 
-You can also see the content's of:
+You can also see the contents of the deployed `/build` directory:
 
 - [https://orgid-docs.rozuvan.net/build](https://orgid-docs.rozuvan.net/build)
 - the same via Cloudflare - [https://cloudflare-ipfs.com/ipfs/QmYXT9SjaY7qVzz1cpk97rCN2mMecnM8172ociQRoTdwSV/build](https://cloudflare-ipfs.com/ipfs/QmYXT9SjaY7qVzz1cpk97rCN2mMecnM8172ociQRoTdwSV/build)
