@@ -19,6 +19,6 @@ You can also see the contents of the deployed `/build` directory:
 - [https://orgid-docs.rozuvan.net/build](https://orgid-docs.rozuvan.net/build)
 - the same via Cloudflare - [https://cloudflare-ipfs.com/ipfs/QmYXT9SjaY7qVzz1cpk97rCN2mMecnM8172ociQRoTdwSV/build](https://cloudflare-ipfs.com/ipfs/QmYXT9SjaY7qVzz1cpk97rCN2mMecnM8172ociQRoTdwSV/build)
 
-Please note! Cloudflare gateway caches the contents when you request a particular IPFS hash. It then clears the caches in about 24 hours if nobody requests that particular IPFS hash again. When there is no cached content, Cloudflare can take up to 2-3 minutes to fully load the static site.
+Please note! Cloudflare gateway caches the contents when you request a particular IPFS hash. Cloudflare clears internal caches in about 24 hours (if nobody requests that particular IPFS hash again). When there is no cached content, Cloudflare can take up to 2-3 minutes to fully load the static site.
 
 I think it's important to have your own IPFS node running (and your own gateway) because of unpredictability of 3rd party services.
