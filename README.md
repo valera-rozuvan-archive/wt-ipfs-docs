@@ -21,4 +21,4 @@ You can also see the content's of:
 
 Please note! Cloudflare gateway caches the contents when you request a particular IPFS hash. It then clears the caches in about 24 hours if nobody requests that particular IPFS hash again. When there is no cached content, Cloudflare can take up to 2-3 minutes to fully load the static site.
 
-This is why I think it's important to have your own IPFS node running, and your own gateway.
+I think it's important to have your own IPFS node running (and your own gateway) because of unpredictability of 3rd party services.
